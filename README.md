@@ -26,3 +26,18 @@ The repo contains the fully computed notebook, exported figures, and minimal cod
   &nbsp;&nbsp;
   <img src="assets/fig_architecture.png" alt="ParallelCNN architecture with two convolutional branches (3×3 and 5×5) fused before classifier" width="420">
 </p>
+## 📊 Results
+
+Detailed numbers: see [`results/metrics.json`](results/metrics.json).
+
+<p align="center">
+  <img src="results/confusion_matrix.png" alt="Confusion Matrix" width="420">
+  &nbsp;&nbsp;
+  <img src="results/train_accuracy.png" alt="Training Accuracy vs. Epochs" width="420">
+</p>
+
+<p align="center">
+  <img src="results/val_accuracy.png" alt="Validation Accuracy vs. Epochs" width="420">
+  &nbsp;&nbsp;
+  <img src="results/shap_examples/shap_grid_01.png" alt="SHAP/IG Saliency Grid" width="420">
+</p>
