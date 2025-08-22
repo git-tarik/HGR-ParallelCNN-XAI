@@ -96,3 +96,14 @@ pip install torch numpy scikit-learn matplotlib seaborn opencv-python tqdm pillo
 
 4. **Outputs**
 - Confusion matrix, curves, and saliency images will appear under `results/`.
+
+## ⭐ Project Highlights
+- **High accuracy:** ~99.5% validation and >99% test on LeapGestRecog.
+- **Lightweight ParallelCNN:** two-branch conv (3×3 & 5×5) fused before a compact classifier—easy to understand and train.
+- **Explainability built-in:** SHAP / Integrated Gradients saliency maps confirm focus on fingertips and palm edges.
+- **Reproducible showcase:** fully computed notebook plus exported artifacts under `results/`.
+- **Clean structure:** `notebooks/`, `results/`, and `assets/` with figure captions and direct links.
+- **Portable setup:** minimal dependencies (see Quick Start); works on CPU or GPU.
+
+
+
