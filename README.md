@@ -77,7 +77,22 @@ les/shap_grid_01.png" alt="SHAP/IG Saliency Grid" width="420">
 ## 🚀 Quick Start (view & re-run)
 
 1. **Clone**
-   ```bash
-   git clone https://github.com/<your-username>/HGR-ParallelCNN-XAI.git
-   cd HGR-ParallelCNN-XAI
+~~~bash
+git clone https://github.com/<your-username>/HGR-ParallelCNN-XAI.git
+cd HGR-ParallelCNN-XAI
+~~~
 
+2. **Create env & install deps**
+~~~bash
+python -m venv .venv
+# Windows: .\.venv\Scripts\activate
+# macOS/Linux: source .venv/bin/activate
+pip install torch numpy scikit-learn matplotlib seaborn opencv-python tqdm pillow captum shap
+~~~
+
+3. **Run the notebook**
+- Open `notebooks/Parallel_CNN.ipynb` in Jupyter/VS Code and **Run All**.
+- If your data path differs, set `DATA_DIR` in the first cells or load your `.npy` arrays accordingly.
+
+4. **Outputs**
+- Confusion matrix, curves, and saliency images will appear under `results/`.
