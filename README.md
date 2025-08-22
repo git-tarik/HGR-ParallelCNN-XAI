@@ -21,6 +21,7 @@ The repo contains the fully computed notebook, exported figures, and minimal cod
 - 🏗️ Architecture: [`assets/fig_architecture.png`](assets/fig_architecture.png)
 les/shap_grid_01.png" alt="SHAP/IG Saliency Grid" width="420">
 </p>
+
 ## 🔧 Workflow
 
 <img src="assets/fig_workflow.png" alt="Pipeline: dataset → preprocessing → ParallelCNN training → SHAP/IG explanations" width="720">
