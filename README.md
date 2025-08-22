@@ -73,3 +73,11 @@ les/shap_grid_01.png" alt="SHAP/IG Saliency Grid" width="420">
 <img src="results/shap_examples/shap_grid_01.png" alt="Saliency/SHAP heatmaps highlighting discriminative regions" width="720">
 
 *Figure 7 — Attribution heatmaps consistently highlight finger tips and palm edges that are discriminative for the predicted gesture.*
+
+## 🚀 Quick Start (view & re-run)
+
+1. **Clone**
+   ```bash
+   git clone https://github.com/<your-username>/HGR-ParallelCNN-XAI.git
+   cd HGR-ParallelCNN-XAI
+
