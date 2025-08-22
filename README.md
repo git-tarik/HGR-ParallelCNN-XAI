@@ -19,3 +19,10 @@ The repo contains the fully computed notebook, exported figures, and minimal cod
 - ✅ Validation Curve: [`results/val_accuracy.png`](results/val_accuracy.png)  
 - 🔬 Saliency Grid: [`results/shap_examples/shap_grid_01.png`](results/shap_examples/shap_grid_01.png)  
 - 🏗️ Architecture: [`assets/fig_architecture.png`](assets/fig_architecture.png)
+## 🔧 Workflow & 🧱 Architecture
+
+<p align="center">
+  <img src="assets/fig_workflow.png" alt="End-to-end workflow: data → preprocessing → training/evaluation → XAI attributions" width="420">
+  &nbsp;&nbsp;
+  <img src="assets/fig_architecture.png" alt="ParallelCNN architecture with two convolutional branches (3×3 and 5×5) fused before classifier" width="420">
+</p>
