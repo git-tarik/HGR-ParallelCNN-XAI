@@ -22,6 +22,22 @@ The repo contains the fully computed notebook, exported figures, and minimal cod
 les/shap_grid_01.png" alt="SHAP/IG Saliency Grid" width="420">
 </p>
 
+## 📁 Repository Structure
+```text
+.
+├─ notebooks/
+│  └─ Parallel_CNN.ipynb          # full, computed notebook
+├─ results/
+│  ├─ confusion_matrix.png
+│  ├─ train_accuracy.png
+│  ├─ val_accuracy.png
+│  └─ shap_examples/
+│     └─ shap_grid_01.png
+└─ assets/
+   ├─ fig_workflow.png
+   ├─ fig_architecture.png
+   └─ fig_dataset_samples.png
+
 ## 🔧 Workflow
 
 <img src="assets/fig_workflow.png" alt="Pipeline: dataset → preprocessing → ParallelCNN training → SHAP/IG explanations" width="720">
