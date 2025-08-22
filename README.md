@@ -37,6 +37,8 @@ les/shap_grid_01.png" alt="SHAP/IG Saliency Grid" width="420">
    ├─ fig_workflow.png
    ├─ fig_architecture.png
    └─ fig_dataset_samples.png
+```
+
 
 ## 🔧 Workflow
 
